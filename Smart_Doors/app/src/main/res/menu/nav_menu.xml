@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_camara"
+            android:title="个人中心" />
+        <item android:id="@+id/nav_gallery"
+            android:title="资料查询" />
+        <item android:id="@+id/nav_slideshow"
+            android:title="消息记录" />
+        <item android:id="@+id/nav_manage"
+            android:title="设置" />
+    </group>
+</menu>

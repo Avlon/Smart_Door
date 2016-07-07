@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/colorLoginBg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="监控界面"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/head_text"/>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/monitor"
+        android:background="@null"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <ImageButton
+            android:id="@+id/open_monitor"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/monitor_but"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="110dp"
+            android:layout_marginLeft="110dp"/>
+    </LinearLayout>
+
+</LinearLayout>
